@@ -9,6 +9,8 @@ fn main() {
         std::process::exit(1);
     }
 
+    let invert_coefficients = if args.len() > 2 {args[2] == "1"} else {false};
+
     let no_coefficients: usize = args[1].parse().expect("number of coefficents should be a number");
 
     let mut buf: String = Default::default();
@@ -19,7 +21,11 @@ fn main() {
         print!("input coefficient nr {}: ", i);
         let _ = io::stdout().flush();
         io::stdin().read_line(&mut buf).expect("can't read the input");
-        coefficients.push(1.0 / buf.trim().parse::<f64>().expect("coefficient should be a number"));
+        if invert_coefficients {
+            coefficients.push(1.0 / buf.trim().parse::<f64>().expect("coefficient should be a number"));
+        } else {
+            coefficients.push(buf.trim().parse::<f64>().expect("coefficient should be a number"));
+        }
     }
 
     let inverse_c0 = 1.0 / coefficients[0];

@@ -39,8 +39,6 @@ fn main() {
     let seq: Vec<usize> = (0..N).collect();
 
     let mut rng = thread_rng();
-    let uni = Uniform::new(0, 9);
-    println!("i = {:?}", uni);
     let ranges: Vec<Uniform<usize>> = (1..=N).map(|val| Uniform::new(0, val + 1)).collect();
 
     let mut permutation: Vec<usize> = seq.clone();
@@ -49,18 +47,11 @@ fn main() {
         let mut no_fixed = 0;
         let mut one_fixed = 0;
         let mut orbits = 0;
-        for _ in 0..(N*N) {
+        for _ in 0..(N*(f64::sqrt(N as f64) as usize)) {
             for i in (1..n).rev() {
-                //let j = rng.sample(ranges[19]);
-                //println!("{}", j);
-                //println!("i = {}", i - 1);
-                //let j: usize = rng.gen_range(0..=i);
                 let j = rng.sample(ranges[i - 1]);
-                //println!("{}", j);
-                //println!("-----");
                 permutation.swap(i, j);
             }
-            //println!("{:?}", &permutation[0..n]);
             let fixed_points = count_fixed_points(&permutation[0..n]);
 
             if fixed_points == 0 {
@@ -73,6 +64,7 @@ fn main() {
 
             permutation.splice(0..n, (&seq[0..n]).iter().cloned());
         }
+        println!("{}", n);
         println!("no - {}", no_fixed);
         println!("one - {}", one_fixed);
         println!("orbits - {}", orbits);

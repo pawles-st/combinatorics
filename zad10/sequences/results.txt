@@ -1,0 +1,200 @@
+1
+no_aaa: 0
+no_abb: 0
+total_aaa: 0
+2
+no_aaa: 0
+no_abb: 0
+total_aaa: 0
+3
+no_aaa: 0.125056
+no_abb: 0.125536
+total_aaa: 0.125056
+4
+no_aaa: 0.185832
+no_abb: 0.24984
+total_aaa: 0.247936
+5
+no_aaa: 0.250464
+no_abb: 0.37424
+total_aaa: 0.375296
+6
+no_aaa: 0.312448
+no_abb: 0.486088
+total_aaa: 0.499816
+7
+no_aaa: 0.368576
+no_abb: 0.578384
+total_aaa: 0.62948
+8
+no_aaa: 0.418904
+no_abb: 0.657448
+total_aaa: 0.750184
+9
+no_aaa: 0.46324
+no_abb: 0.720344
+total_aaa: 0.874712
+10
+no_aaa: 0.508448
+no_abb: 0.774864
+total_aaa: 1.004072
+11
+no_aaa: 0.54728
+no_abb: 0.816688
+total_aaa: 1.128256
+12
+no_aaa: 0.581696
+no_abb: 0.85096
+total_aaa: 1.242976
+13
+no_aaa: 0.619088
+no_abb: 0.879512
+total_aaa: 1.380008
+14
+no_aaa: 0.64844
+no_abb: 0.901984
+total_aaa: 1.50228
+15
+no_aaa: 0.676632
+no_abb: 0.921656
+total_aaa: 1.624224
+16
+no_aaa: 0.700344
+no_abb: 0.936784
+total_aaa: 1.741128
+17
+no_aaa: 0.72548
+no_abb: 0.948088
+total_aaa: 1.864864
+18
+no_aaa: 0.74944
+no_abb: 0.958288
+total_aaa: 2.003016
+19
+no_aaa: 0.76716
+no_abb: 0.96648
+total_aaa: 2.111672
+20
+no_aaa: 0.78712
+no_abb: 0.972288
+total_aaa: 2.256912
+21
+no_aaa: 0.803136
+no_abb: 0.977992
+total_aaa: 2.365592
+22
+no_aaa: 0.819472
+no_abb: 0.982344
+total_aaa: 2.493456
+23
+no_aaa: 0.833888
+no_abb: 0.985568
+total_aaa: 2.63084
+24
+no_aaa: 0.84812
+no_abb: 0.98852
+total_aaa: 2.753344
+25
+no_aaa: 0.861256
+no_abb: 0.990544
+total_aaa: 2.882632
+26
+no_aaa: 0.871904
+no_abb: 0.991912
+total_aaa: 3.002296
+27
+no_aaa: 0.88228
+no_abb: 0.993384
+total_aaa: 3.127064
+28
+no_aaa: 0.891696
+no_abb: 0.995048
+total_aaa: 3.255568
+29
+no_aaa: 0.899648
+no_abb: 0.995992
+total_aaa: 3.376648
+30
+no_aaa: 0.9078
+no_abb: 0.996672
+total_aaa: 3.503488
+31
+no_aaa: 0.914824
+no_abb: 0.997176
+total_aaa: 3.6218
+32
+no_aaa: 0.922304
+no_abb: 0.997896
+total_aaa: 3.75244
+33
+no_aaa: 0.927416
+no_abb: 0.998264
+total_aaa: 3.865456
+34
+no_aaa: 0.93508
+no_abb: 0.998528
+total_aaa: 4.009792
+35
+no_aaa: 0.938384
+no_abb: 0.99892
+total_aaa: 4.124656
+36
+no_aaa: 0.943328
+no_abb: 0.998968
+total_aaa: 4.244936
+37
+no_aaa: 0.949976
+no_abb: 0.999416
+total_aaa: 4.379936
+38
+no_aaa: 0.952488
+no_abb: 0.99948
+total_aaa: 4.49628
+39
+no_aaa: 0.957224
+no_abb: 0.999448
+total_aaa: 4.62724
+40
+no_aaa: 0.959984
+no_abb: 0.999648
+total_aaa: 4.764056
+41
+no_aaa: 0.96332
+no_abb: 0.999696
+total_aaa: 4.87188
+42
+no_aaa: 0.9662
+no_abb: 0.99976
+total_aaa: 4.989576
+43
+no_aaa: 0.969128
+no_abb: 0.999824
+total_aaa: 5.121792
+44
+no_aaa: 0.971184
+no_abb: 0.999856
+total_aaa: 5.246056
+45
+no_aaa: 0.97344
+no_abb: 0.999824
+total_aaa: 5.370312
+46
+no_aaa: 0.976344
+no_abb: 0.99988
+total_aaa: 5.515784
+47
+no_aaa: 0.977592
+no_abb: 0.999952
+total_aaa: 5.622928
+48
+no_aaa: 0.97976
+no_abb: 0.999968
+total_aaa: 5.742664
+49
+no_aaa: 0.98056
+no_abb: 0.999952
+total_aaa: 5.864248
+50
+no_aaa: 0.983216
+no_abb: 0.999936
+total_aaa: 6.019472

@@ -1,5 +1,5 @@
 use rand::{thread_rng, Rng};
-use rand::distributions::Uniform;
+use std::env;
 
 // max sequence length
 const N: usize = 50;
@@ -50,8 +50,11 @@ fn find(lps: &Vec<usize>, pattern: &str, text: &str) -> usize {
 
 fn main() {
 
+    let args: Vec<String> = env::args().collect();
+    let p: f64 = args[1].parse().unwrap();
+
     let mut rng = thread_rng();
-    let dist = Uniform::new(0, 2);
+    //let dist = Uniform::new(0, 2);
 
     let lps_aaa = create_lps("aaa");
     let lps_abb = create_lps("abb");
@@ -66,7 +69,12 @@ fn main() {
             let mut sequence = String::new();
             sequence.reserve(n);
             for _ in 0..n {
-                sequence.push(char::from_u32(0x0061 + rng.sample(dist)).expect("can't convert to a char value"));
+                //sequence.push(char::from_u32(0x0061 + rng.sample(dist)).expect("can't convert to a char value"));
+                if rng.gen::<f64>() < p {
+                    sequence.push('a');
+                } else {
+                    sequence.push('b');
+                }
             }
             let aaa_occurences = find(&lps_aaa, "aaa", &sequence);
             let abb_occurences = find(&lps_abb, "abb", &sequence);
